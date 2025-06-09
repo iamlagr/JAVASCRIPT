@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var nome = prompt("Escreva seu nome: ")
+var nota1 = Number(prompt("Escreva sua primeira nota: "))
+var nota2 = Number(prompt("Escreva sua segunda nota: "))
+var resultado
+
+resultado = (nota1 + nota2)  /2
+
+alert("Sua nota é igual á " +resultado )
+
+if (resultado>=6 && resultado <= 10 ){
+alert("Aprovado")
+    }
+    else if (resultado<6 && resultado>=4 ){
+        alert("Recuperação")
+    }
+else if (resultado<4 && resultado>=0){
+    alert("Reprovado")
+}
+else {
+    alert("VALOR INCORRETO")
+}
+    </script>
+</body>
+</html>
